@@ -10,7 +10,7 @@ type EdgeFunctionsClient struct {
 }
 
 func NewClient(apiUser string, apiKey string) *EdgeFunctionsClient {
-	return NewClientOverrideBaseUrl(apiUser, apiKey, "https://api.faas.llnw.net/v1")
+	return NewClientOverrideBaseUrl(apiUser, apiKey, "https://api.faas.llnw.net/ef-api/v1")
 }
 
 func NewClientOverrideBaseUrl(apiUser string, apiKey string, baseUrl string) *EdgeFunctionsClient {
