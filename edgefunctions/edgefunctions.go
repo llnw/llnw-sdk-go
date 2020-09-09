@@ -17,7 +17,7 @@ type EdgeFunction struct {
 	Sha256               string                `json:"sha256,omitempty"`
 	EnvironmentVariables []EnvironmentVariable `json:"environmentVariables"`
 	ReservedConcurrency  int                   `json:"reservedConcurrency,omitempty"`
-	RevisionID           int                   `json:"revisionId"`
+	RevisionID           int                   `json:"revisionId,omitempty"`
 	Version              int                   `json:"version,omitempty"`
 }
 
