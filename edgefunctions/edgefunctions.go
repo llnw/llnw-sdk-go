@@ -13,7 +13,7 @@ type EdgeFunction struct {
 	Runtime              string                `json:"runtime,omitempty"`
 	Memory               int                   `json:"memory,omitempty"`
 	Timeout              int                   `json:"timeout,omitempty"`
-	CanDebug             bool                  `json:"canDebug,omitempty"`
+	CanDebug             bool                  `json:"canDebug"`
 	Sha256               string                `json:"sha256,omitempty"`
 	EnvironmentVariables []EnvironmentVariable `json:"environmentVariables"`
 	ReservedConcurrency  int                   `json:"reservedConcurrency,omitempty"`
